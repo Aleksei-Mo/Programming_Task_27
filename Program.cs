@@ -1,7 +1,7 @@
 ﻿// Задача 27. Напишите программу, которая принимает на вход число и выдает сумму цифр в данном числе.
 Console.Clear();
-Console.WriteLine("This programm gets the sum of all digit of your number.");
-Console.Write("Enter your number: ");
+Console.WriteLine("This programm gets the sum of all digit of your string.");
+Console.Write("Enter your string: ");
 string? userNumber = Console.ReadLine();
 int sum=DigitSum(userNumber);
 Console.WriteLine($"Sum of all digits in your number is equal to {sum}");
